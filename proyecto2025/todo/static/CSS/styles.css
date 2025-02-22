@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+h1 {
+    color: rgb(199, 7, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.el-navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.el-navbar .navbar-brand,
+.el-navbar .nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.el-navbar .nav-link:hover{
+    color: rgb(197, 13, 13);
+}
+
+.el-navbar .nav-link.activate{
+    color: white;
+}
+
+.la-tabla {
+    color: white !important;
+    background-color: blue !important;
+}
+
+.la-tabla td:first-child{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.la-tabla th{
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
